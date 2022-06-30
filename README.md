@@ -65,6 +65,12 @@ to make the directory accessible to the web server.
 </Directory>
 ```
 
+Restart the Apache2 service:
+```
+sudo systemctl reload apache2
+
+sudo systemctl restart apache2
+```
 ### Step 4 — Enable the Virtual Host
 
 ```
