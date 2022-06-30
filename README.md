@@ -156,3 +156,17 @@ composer create-project --prefer-dist laravel/laravel:^7.0 .
 php artisan keu:generate
 ```
 ### Larevel Installed successfully on your machine
+
+# Install osiset shopify app dependencies in Laravel using composer
+```
+composer require osiset/laravel-shopify
+```
+## Configuration
+
+### Package
+```
+php artisan vendor:publish --tag=shopify-config
+```
+You're now able to access config in config/shopify-app.php
+
+Essentially you will need to fill in the app_name, api_key, api_secret, and api_scopes to generate a working app.
