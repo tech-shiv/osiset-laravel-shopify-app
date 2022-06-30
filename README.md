@@ -46,6 +46,25 @@ sudo nano /etc/apache2/sites-available/example.com.conf
 </VirtualHost>
 ```
 
+#### Set directory permissions in the Apache2 /etc/apache2/apache2.conf
+```
+sudo nano /etc/apache2/apache2.conf
+```
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride False
+        Require all granted
+</Directory>
+```
+to make the directory accessible to the web server.
+```
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
+```
+
 ### Step 4 — Enable the Virtual Host
 
 ```
