@@ -45,7 +45,9 @@ sudo systemctl reload apache2
 ### Step 7 — Create the Index File
 ```
 sudo nano /var/www/example.com/public_html/index.html
-
+```
+### Paste the following code into the index.html file:
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
