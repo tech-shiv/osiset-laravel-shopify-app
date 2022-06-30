@@ -1,1 +1,1 @@
-# osiset-laravel-shopify-app
+# Create Shopify App bridge with Laravel using Osiset
