@@ -50,6 +50,7 @@ sudo nano /etc/apache2/sites-available/example.com.conf
 ```
 sudo nano /etc/apache2/apache2.conf
 ```
+```
 <Directory /var/www/>
         Options Indexes FollowSymLinks
         AllowOverride False
